@@ -6,8 +6,9 @@ default_type: echo
 
 Disable any FAN and include multiple_fans.cfg
 
-remove [fan]
-remove pin: ar9
+remove [fan] from your config
+
+
 
 Add to config
 [include klipper/config/multiple_fans.cfg]
